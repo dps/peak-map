@@ -1,3 +1,7 @@
+# Forked version of https://anvaka.github.io/peak-map to generate elevation map JSON file for laserUp
+
+🙏 to anvaka for the amazing work, this is a quick hack on top.
+
 # Peak map
 
 [This website](https://anvaka.github.io/peak-map) allows you to visualize elevation of any area on the map with 

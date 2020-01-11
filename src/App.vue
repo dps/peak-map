@@ -14,7 +14,7 @@
           </svg>
         </a>
         <a href="#" class='draw peaks' title='Draw the heightmap chart' @click.prevent='onMainActionClick'>{{mainActionText}}</a>
-        <a href="#" class='draw' title='Print on a mug' @click.prevent='previewOrOpen'>Print a mug</a>
+        <a href="#" class='draw' title='Get data for laserUp' @click.prevent='previewOrOpen'>Get data for laserUp</a>
       </div>
       <div class='settings-form' v-if='settingsOpen'>
         <h3>Map settings</h3>

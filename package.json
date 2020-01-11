@@ -1,5 +1,5 @@
 {
-  "name": "@anvaka/map-print",
+  "name": "@dps/map-print",
   "version": "1.0.0",
   "description": "Print a map on a mug",
   "author": "anvaka",
@@ -65,5 +65,15 @@
     "> 1%",
     "last 2 versions",
     "not ie <= 8"
-  ]
+  ],
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dps/peak-map.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dps/peak-map/issues"
+  },
+  "homepage": "https://github.com/dps/peak-map#readme"
 }

@@ -145,6 +145,21 @@ export function getRegionElevation(map, progress, doneCallback) {
         lastY = y;
       }
 
+      window.collectedHeights = {
+        minHeight, maxHeight, 
+        rowWithHighestPoint, 
+        allHeights,
+        windowWidth,
+        windowHeight
+      };
+
+      console.log({
+        minHeight, maxHeight, 
+        rowWithHighestPoint, 
+        allHeights,
+        windowWidth,
+        windowHeight
+      });
       done({
         minHeight, maxHeight, 
         rowWithHighestPoint, 

@@ -31,8 +31,9 @@ function init() {
     container: "map",
     minZoom: 0,
     style: "mapbox://styles/mapbox/light-v10",
-    center: [-122.574, 47.727],
-    zoom: 7.68,
+    //11.08/33.3849/-118.4432
+    center: [-118.4432, 33.3849],
+    zoom: 11.08,
     hash: true
   });
 
